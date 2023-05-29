@@ -1,7 +1,8 @@
 import React ,{useContext}from 'react';
-import Images from '../components/photos'
+import Images from '../components/Image'
 import {Context} from '../context'
-import {getClass} from '../utils/getclass'
+import { getClass } from '../utils/getclass'
+
 function Photos() {
   /*const { allPhotos } = useContext(Context)
   const imageElements=allphotos.map((img,i)=>(
